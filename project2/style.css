@@ -1,0 +1,282 @@
+*, 
+*::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+header{
+  height: 100vh;
+  
+}
+
+nav{
+    padding-top: 1rem;
+    font-family: 'Nunito', sans-serif;
+  }
+  .float-left {
+    float: left;
+    color: black;
+    font-family: Akkurat-Regular,sans-serif;
+    
+  }
+  .float-right{
+    float:right;
+    /* color: rgb(151, 40, 40); */
+  }
+  
+   li {
+    display: inline;
+  }
+  ul {
+      font-size: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    overflow: hidden;
+   
+  }
+  
+   .float-right  li {
+    float: left;
+  }
+  
+   .float-right li a {
+    display: block;
+    text-align: center;
+    padding-left:1rem;
+    padding-right:1rem;
+    text-decoration: none;
+    color: #474747;
+    font-family: Montserrat;
+  } 
+  
+   .float-right   li a:hover {
+    color:black;
+    text-decoration: underline;
+    
+  }
+ 
+  .c1{
+      padding-top: .5rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+  }
+
+.log_button{
+    
+  border:.1rem solid rgb(197, 73, 149);
+  color: black;
+  background:white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .8rem;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: .3rem;
+  margin-right:1rem ;
+  cursor: pointer;
+}
+.sig_button{
+    border:.1rem solid rgb(195, 67, 136);
+  color: white;
+  background-color: rgb(195, 67, 136) ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .8rem;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: .3rem;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+}
+.buttons{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.log_button:hover{
+    background-color:rgb(195, 67, 136);
+    color: white;
+    text-decoration: solid;
+}
+.sig_button:hover{
+    border:.1rem solid rgb(197, 73, 149);
+  color: black;
+  background:white;
+  text-decoration: solid;
+}
+
+
+
+
+.column1{
+    
+    margin-top: 10rem;
+    float: left;
+    padding-right:2rem;
+    padding-left:6rem;
+    /* font-size: 10em; */
+}
+  /*.column2{
+     float: right;
+
+  
+  }
+*/
+  .img1{
+    width: 200px;
+    /* height: 200px; */
+  } 
+/* .large_column{
+  display: flex;
+justify-content: space-between;
+} */
+ 
+
+    
+  
+.heading{
+   color: #707070;
+    font-size: 2em;
+  }
+  
+.intro{
+width: 40vw;
+padding-top: 3rem;
+font-size: 1.2em;
+color: #707070;
+}
+.button2{
+ margin-top: 5rem;
+ }
+ 
+.Learn_More{
+    border:.1rem solid #6D0073;
+    color: #474747;
+    background:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    margin-right:1rem ;
+    cursor: pointer;
+  }
+.fas{
+  color: #6D0073 ;
+  font-size: .8em;
+}
+
+.header_last{
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  padding-right: 1rem;
+  color: #474747;
+}
+.far{
+  color: #6D0073 ;
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+
+/* main  ------start */
+main{
+  height: 150vh;
+  margin-top: 5rem;
+}
+
+.first_column{
+ width: 40vw;
+ display:grid ;
+ place-content: center;
+ margin-left: 30rem;
+ place-items: center;
+}
+
+.first_column h4{
+  font-size: 2em;
+  color: #1D1C19;
+}
+.first_column p{
+  font-size: 1em;
+  color: #707070;
+}
+
+.big_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  
+} 
+.container{
+width: 15rem;
+height: 20rem;
+border-radius: 2rem;
+background-color: whitesmoke;
+box-shadow: 0 1.2rem 3rem 0.5rem rgba(212, 65, 156, 0.157);
+padding: 1rem;
+text-align: center;
+}
+.logo{
+  /* padding-top: 1rem; */
+ border-radius: 50%;
+ background: linear-gradient( #8B0092 , #FF519F ); 
+ width: 3rem;
+ height: 3rem;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+align-items: center;
+}
+.logo .fas {
+font-size: 2em;
+color: white;
+}
+
+h2{
+  font-size: 1.2em;
+  padding-top: 2rem;
+  color: #474747;
+}
+.container_contant{
+  padding-top: 1.5rem;
+  font-size: .9rem;
+  color: #707070;
+}
+
+.services{
+  margin-top: 10rem;
+  height: 60vh;
+  background-color: #FFF4F9;
+}
+
+
+/* .img_container{
+  
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+} */
