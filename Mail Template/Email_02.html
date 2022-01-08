@@ -1,0 +1,168 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            Margin: 0;
+            padding: 0;
+            background-color: #f6f9fc;
+
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #f6f9fc;
+            padding-bottom: 40px;
+        }
+
+        .webkit {
+            max-width: 700px;
+            background-color: #f6f9fc;
+
+        }
+
+        .outer {
+            Margin: 0 auto;
+            width: 100%;
+            max-width: 700px;
+            border-spacing: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #293897;
+        }
+
+        li {
+            list-style: none;
+            padding: 2px;
+            font-size: 13px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #293897;
+        }
+    </style>
+</head>
+
+<body>
+    <center class="wrapper">
+        <div class="webkit">
+            <table class="outer" align="center">
+
+                <tr>
+                    <td height="15" style="background-color: #293897;"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td style="padding-top: 10px;">
+                                    <a href=""><img style="width: 100px;" src="https://akmoney.io{% static 'images/logo.png' %}"></a>
+
+                                </td>
+                                <td style="line-height: 1; padding-bottom: 3px;">
+                                    <h1> AK <br>Money </h1>
+                                </td>
+
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td style="padding-top:14px;padding-left: 60px;">
+
+                                    <p style="font-size: 2rem; ;margin-bottom:-13px">Welcome,</p>
+                                    <p style="font-size:19px; padding-left: 3px;">
+                                        You have successfully registered in our AK Money portal.
+                                    </p>
+
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top: 30px;">
+                        <table>
+
+
+                            <tr>
+                                <td style="padding-left: 60px;font-size: 18px;">Full Name: &nbsp;</td>
+                                <td style="font-size: 18px;">{{ name }}</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td style="padding-left: 60px;font-size: 18px;">Mobile: &nbsp;</td>
+                                <td style="font-size: 18px;">{{ phone }}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="text-align: center;padding-top:80px;">
+                        <a href="https://akmoney.io">
+                            <button style="font-size:1.5rem;padding:1rem 3rem 1rem;background-color:#E33233;color: white;border: 0pc;" type="button">
+                                Get Started
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td style="padding-left:60px; padding-top:80px;">
+                                    <li style="font-size:18px;">Best regards,</li>
+                                    <li>Team AK Money</li>
+                                    <li><a href="tel:7086236631"><i class="fas fa-phone-alt"></i> 7086236631</a></li>
+                                    <li><a href="mailto:support@akmoney.in"><i class="fas fa-envelope"></i>
+                                        support@akmoney.in</a>
+                                    </li>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+
+                <tr>
+                    <td style="padding-top: 30px;">
+                <tr>
+                    <td height="15" style="background-color: #293897;"></td>
+                </tr>
+                </td>
+                </tr>
+            </table>
+        </div>
+    </center>
+</body>
+
+</html>
